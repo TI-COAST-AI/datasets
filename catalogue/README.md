@@ -22,4 +22,5 @@ Click a dataset name for details and its original source.
 | [RepoRT](report-retention-times.md) | Chromatography | Small-molecule LC retention times, molecular structures, and chromatographic conditions. |
 | [METLIN Retention-Time Dataset](metlin-retention-times.md) | Chromatography | Small-molecule retention-time data for developing machine-learning prediction models. |
 | [PredRet](predret-retention-times.md) | Chromatography | Experimental LC retention times and compound identifiers across multiple chromatographic systems. |
+| [Enamine LC–MS Retention-Time Study](enamine-retention-times.md) | Chromatography | Retention-time modelling using internal Enamine data; public dataset access unconfirmed. |
 
