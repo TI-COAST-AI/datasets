@@ -19,4 +19,5 @@ Click a dataset name for details and its original source.
 | Dataset | Category | Brief description |
 |---|---|---|
 | [Abraham Solvation Descriptors](abraham-solvation-descriptors.md) | Molecular properties | Molecular structures and six solvation descriptors; 450 entries at inspection. |
-| [RepoRT](https://github.com/michaelwitting/RepoRT) | Chromatography | Small-molecule LC retention times, molecular structures, and chromatographic conditions. |
+| [RepoRT](report-retention-times.md) | Chromatography | Small-molecule LC retention times, molecular structures, and chromatographic conditions. |
+
