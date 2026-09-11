@@ -20,4 +20,5 @@ Click a dataset name for details and its original source.
 |---|---|---|
 | [Abraham Solvation Descriptors](abraham-solvation-descriptors.md) | Molecular properties | Molecular structures and six solvation descriptors; 450 entries at inspection. |
 | [RepoRT](report-retention-times.md) | Chromatography | Small-molecule LC retention times, molecular structures, and chromatographic conditions. |
+| [METLIN Retention-Time Dataset](metlin-retention-times.md) | Chromatography | Small-molecule retention-time data for developing machine-learning prediction models. |
 
