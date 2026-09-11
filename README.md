@@ -1,29 +1,45 @@
 # Chemistry & Analytical Chemistry Datasets
 
-A TI-COAST-AI community catalogue of datasets for learning, research, machine learning, and deep learning.
+A curated TI-COAST AI collection of chemistry and analytical chemistry
+datasets for education, research, machine learning, and deep learning.
 
-## What you will find
+Each dataset entry provides information on the source, contents, access,
+licence, data structure, potential applications, and known limitations.
 
-* Molecular and polymer properties
-* Chromatographic retention data
-* Spectroscopy and mass spectrometry data
-* Sensor and laboratory measurement data
-* Small datasets suitable for courses and exercises
+## Available datasets
 
-Dataset entries will include a description, original source, access link, licence information, and suggested applications.
+| Dataset | Category | Brief description |
+|---|---|---|
+| [Abraham Solvation Descriptors](catalogue/abraham-solvation-descriptors.md) | Molecular properties | Molecular structures and six solvation descriptors; 450 entries at inspection. |
+| [RepoRT](catalogue/report-retention-times.md) | Chromatography | Small-molecule LC retention times, molecular structures, and chromatographic conditions. |
+| [METLIN Retention-Time Dataset](catalogue/metlin-retention-times.md) | Chromatography | Small-molecule retention-time data for developing machine-learning prediction models. |
+| [PredRet](catalogue/predret-retention-times.md) | Chromatography | Experimental LC retention times and compound identifiers across multiple chromatographic systems. |
+| [Enamine LC–MS Retention-Time Study](catalogue/enamine-retention-times.md) | Chromatography | Retention-time modelling using internal Enamine data; public dataset access unconfirmed. |
+
+## About the catalogue
+
+Dataset pages may include:
+
+- Dataset contents and size
+- Original creators and source
+- Licence and access conditions
+- File formats and variables
+- Suggested machine-learning and teaching applications
+- Known limitations
+- Recommended citation
 
 ## Suggest a dataset
 
-Open an issue using the **Issues** tab. Include:
+Suggestions for additional datasets are welcome.
 
-* Dataset name and source link
-* A short description of its contents
-* Licence information, if available
-* Potential uses in chemistry or analytical chemistry
+Open an issue and include the dataset name, source, a short description,
+licence information if available, and potential applications.
 
 ## Licences and attribution
 
-Each dataset remains subject to its original licence and access conditions. Inclusion in this catalogue does not grant additional rights.
+Each dataset remains subject to its original licence and access conditions.
+Inclusion in this catalogue does not grant additional rights.
 
-We link to original sources and only host copies when redistribution is permitted. Please credit the original creators and follow their citation guidance.
+TI-COAST AI links to the original sources and only hosts copies where
+redistribution is permitted.
 
