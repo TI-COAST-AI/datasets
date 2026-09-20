@@ -26,24 +26,13 @@ licence, data structure, potential applications, and known limitations.
 
 - [Enamine LC–MS Retention-Time Study](catalogue/enamine-retention-times.md)  
   Retention-time modelling using internal Enamine data; public dataset access unconfirmed.
-## About the catalogue
 
-Dataset pages may include:
-
-- Dataset contents and size
-- Original creators and source
-- Licence and access conditions
-- File formats and variables
-- Suggested machine-learning and teaching applications
-- Known limitations
-- Recommended citation
 
 ## Suggest a dataset
 
-Suggestions for additional datasets are welcome.
+Suggestions for additional datasets are very welcome.
 
-Open an issue and include the dataset name, source, a short description,
-licence information if available, and potential applications.
+Open an issue and include the dataset name, source, a short description and potential applications.
 
 ## Licences and attribution
 
