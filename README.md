@@ -8,14 +8,24 @@ licence, data structure, potential applications, and known limitations.
 
 ## Available datasets
 
-| Dataset | Category | Brief description |
-|---|---|---|
-| [Abraham Solvation Descriptors](catalogue/abraham-solvation-descriptors.md) | Molecular properties | Molecular structures and six solvation descriptors; 450 entries at inspection. |
-| [RepoRT](catalogue/report-retention-times.md) | Chromatography | Small-molecule LC retention times, molecular structures, and chromatographic conditions. |
-| [METLIN Retention-Time Dataset](catalogue/metlin-retention-times.md) | Chromatography | Small-molecule retention-time data for developing machine-learning prediction models. |
-| [PredRet](catalogue/predret-retention-times.md) | Chromatography | Experimental LC retention times and compound identifiers across multiple chromatographic systems. |
-| [Enamine LC–MS Retention-Time Study](catalogue/enamine-retention-times.md) | Chromatography | Retention-time modelling using internal Enamine data; public dataset access unconfirmed. |
+### Molecular properties
 
+- [Abraham Solvation Descriptors](catalogue/abraham-solvation-descriptors.md)  
+  Molecular structures and six solvation descriptors; 450 entries at inspection.
+
+### Chromatography
+
+- [RepoRT](catalogue/report-retention-times.md)  
+  Small-molecule LC retention times, molecular structures, and chromatographic conditions.
+
+- [METLIN Retention-Time Dataset](catalogue/metlin-retention-times.md)  
+  Small-molecule retention-time data for developing machine-learning prediction models.
+
+- [PredRet](catalogue/predret-retention-times.md)  
+  Experimental LC retention times and compound identifiers across multiple chromatographic systems.
+
+- [Enamine LC–MS Retention-Time Study](catalogue/enamine-retention-times.md)  
+  Retention-time modelling using internal Enamine data; public dataset access unconfirmed.
 ## About the catalogue
 
 Dataset pages may include:
