@@ -52,6 +52,131 @@ licence, data structure, potential applications, and known limitations.
 | FTIR-Plastics              | FTIR; Plastics             | [FTIR-Plastics](https://github.com/ShiqianTan/AwesomePolymerDataset)                         | Catalogue link; dataset to verify           |              |                   |
 | KnowItAll Bio-Rad          | IR; Raman; NMR             | [KnowItAll Bio-Rad](https://www.bio-rad.com/en-us/category/spectroscopy-software)            | Commercial                                  |              |                   |
 
+### **CHROMATOGRAPHY**
+| Source             | Sub Category        | URL                                                                                    | Data entries (number)                  | Verification | Example ML script |
+| ------------------ | ------------------- | -------------------------------------------------------------------------------------- | -------------------------------------- | ------------ | ----------------- |
+| NIST WebBook GC RI | GC; Retention Index | [NIST WebBook GC RI](https://webbook.nist.gov/chemistry/gc-ri/)                        | >27,000 compounds (WebBook total)      |              |                   |
+| NIST 26 GC RI      | GC; Retention Index | [NIST RI Database](https://chemdata.nist.gov/dokuwiki/doku.php?id=chemdata:ridatabase) | 526,836 data points; 216,093 compounds |              |                   |
+| PredRet            | LC; Retention Time  | [PredRet](http://predret.org/)                                                         | Not specified                          |              |                   |
+| METLIN SMRT        | LC; Retention Time  | [METLIN SMRT](https://www.nature.com/articles/s41467-019-13680-7)                      | Not specified                          |              |                   |
+| Golm RI            | GC; Retention Index | [Golm RI](http://gmd.mpimp-golm.mpg.de/)                                               | Not specified                          |              |                   |
+
+### **MOLECULAR PROPERTIES**
+| Source                       | Sub Category                     | URL                                                                                                                                                | Data entries (number)                               | Verification | Example ML script |
+| ---------------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ------------ | ----------------- |
+| AqSolDB                      | Water Solubility                 | [AqSolDB](https://github.com/mcsorkun/AqSolDB)                                                                                                     | 9,982 compounds                                     |              |                   |
+| BigSolDB 2.0                 | Solubility; Solvents             | [BigSolDB 2.0](https://zenodo.org/records/15094979)                                                                                                | 103,944 measurements; 1,448 compounds; 213 solvents |              |                   |
+| Open Notebook Solubility     | Solubility; Solvents             | [Open Notebook Solubility](https://figshare.com/articles/dataset/Open_Notebook_Science_Challenge_Solubility_Dataset/1514952)                       | 9,730 measurements                                  |              |                   |
+| ESOL                         | Water Solubility                 | [ESOL](https://deepchem.readthedocs.io/en/latest/api_reference/moleculenet.html)                                                                   | Not specified                                       |              |                   |
+| FreeSolv                     | Hydration Free Energy            | [FreeSolv](https://github.com/MobleyLab/FreeSolv)                                                                                                  | Not specified                                       |              |                   |
+| Lipophilicity                | LogD                             | [Lipophilicity](https://deepchem.readthedocs.io/en/latest/api_reference/moleculenet.html)                                                          | Not specified                                       |              |                   |
+| OCHEM                        | QSAR; Physicochemical Properties | [OCHEM](https://ochem.eu/)                                                                                                                         | Not specified                                       |              |                   |
+| NIST WebBook Thermochemistry | Thermochemistry                  | [NIST WebBook Thermochemistry](https://webbook.nist.gov/chemistry/)                                                                                | >7,000 compounds                                    |              |                   |
+| ThermoML Archive             | Thermophysics                    | [ThermoML Archive](https://www.nist.gov/mml/acmd/trc/thermoml/thermoml-archive)                                                                    | Not specified                                       |              |                   |
+| ILThermo                     | Ionic Liquids                    | [ILThermo](https://ilthermo.boulder.nist.gov/)                                                                                                     | Not specified                                       |              |                   |
+| Photoswitch Dataset          | Photochemistry                   | [Photoswitch Dataset](https://github.com/Ryan-Rhys/The-Photoswitch-Dataset)                                                                        | 405 molecules                                       |              |                   |
+| Flashpoint Dataset           | Safety; Flash Point              | [Flashpoint Dataset](https://figshare.com/articles/dataset/Data_for_Assessing_Graph-based_Deep_Learning_Models_for_Predicting_Flash_Point/9275210) | 10,575 molecules                                    |              |                   |
+| SolProp                      | Solvation                        | [SolProp](https://arxiv.org/abs/2012.11730)                                                                                                        | Not specified                                       |              |                   |
+| SOMAS                        | Solubility                       | [SOMAS](https://doi.org/10.6084/m9.figshare.14552697)                                                                                              | Not specified                                       |              |                   |
+| Leffingwell Odor             | Odour; Molecular Property        | [Leffingwell Odor](https://zenodo.org/record/4085098)                                                                                              | 3,523 molecules                                     |              |                   |
+| HOPV15                       | Optoelectronics                  | [HOPV15](https://figshare.com/articles/dataset/HOPV15_Dataset/1610063/4)                                                                           | Not specified                                       |              |                   |
+
+### **CHEMICAL STRUCTURES AND QUANTUM**
+| Source                        | Sub Category                      | URL                                                                   | Data entries (number) | Verification | Example ML script |
+| ----------------------------- | --------------------------------- | --------------------------------------------------------------------- | --------------------- | ------------ | ----------------- |
+| PubChem Compound              | Molecular Structures; Descriptors | [PubChem Compound](https://pubchem.ncbi.nlm.nih.gov/docs/downloads)   | Not specified         |              |                   |
+| ChEBI                         | Chemical Ontology                 | [ChEBI](https://www.ebi.ac.uk/chebi/downloads)                        | Not specified         |              |                   |
+| COCONUT                       | Natural Products                  | [COCONUT](https://coconut.naturalproducts.net/)                       | Not specified         |              |                   |
+| GDB                           | Virtual Structures                | [GDB](https://gdb.unibe.ch/downloads/)                                | Not specified         |              |                   |
+| ZINC20                        | Screening Structures              | [ZINC20](https://files.docking.org/zinc20-ML/)                        | Not specified         |              |                   |
+| ZINC22                        | Screening Structures              | [ZINC22](https://cartblanche22.docking.org/)                          | Not specified         |              |                   |
+| QM7                           | Quantum Chemistry                 | [QM7](http://quantum-machine.org/datasets/)                           | Not specified         |              |                   |
+| QM7b                          | Quantum Chemistry                 | [QM7b](http://quantum-machine.org/datasets/)                          | Not specified         |              |                   |
+| QM8                           | Quantum Chemistry                 | [QM8](http://quantum-machine.org/datasets/)                           | Not specified         |              |                   |
+| QM9                           | Quantum Chemistry                 | [QM9](http://quantum-machine.org/datasets/)                           | Not specified         |              |                   |
+| LLNL-10k                      | Quantum Chemistry                 | [LLNL-10k](https://github.com/FLASK-LLNL/LLNL-10k-Dataset)            | \~10,000 molecules    |              |                   |
+| BOOM                          | Out-of-Distribution Benchmark     | [BOOM](https://github.com/FLASK-LLNL/BOOM)                            | Not specified         |              |                   |
+| Crystallography Open Database | Crystal Structures                | [Crystallography Open Database](https://www.crystallography.net/cod/) | Not specified         |              |                   |
+| RCSB PDB                      | Biomolecular 3D Structures        | [RCSB PDB](https://www.rcsb.org/)                                     | Not specified         |              |                   |
+
+### **BIOACTIVITY AND TOXICOLOGY**
+| Source                    | Sub Category             | URL                                                                                     | Data entries (number)                                   | Verification | Example ML script |
+| ------------------------- | ------------------------ | --------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------ | ----------------- |
+| ChEMBL                    | Bioactivity              | [ChEMBL](https://www.ebi.ac.uk/chembl/)                                                 | 24,527,044 activities; 2,921,148 compounds (Release 37) |              |                   |
+| BindingDB                 | Binding Affinity         | [BindingDB](https://www.bindingdb.org/rwd/bind/chemsearch/marvin/Download.jsp)          | Not specified                                           |              |                   |
+| PubChem BioAssay          | Screening                | [PubChem BioAssay](https://pubchem.ncbi.nlm.nih.gov/docs/bioassays)                     | Not specified                                           |              |                   |
+| Therapeutics Data Commons | Drug Discovery Benchmark | [Therapeutics Data Commons](https://tdcommons.ai/)                                      | Not specified                                           |              |                   |
+| MoleculeNet               | Molecular Benchmarks     | [MoleculeNet](https://deepchem.readthedocs.io/en/latest/api_reference/moleculenet.html) | Not specified                                           |              |                   |
+| Papyrus                   | Bioactivity              | [Papyrus](https://doi.org/10.4121/16896406.v3)                                          | Not specified                                           |              |                   |
+| MoleculeACE               | Activity Cliffs          | [MoleculeACE](https://github.com/molML/MoleculeACE)                                     | 30 datasets                                             |              |                   |
+| ACNet                     | Activity Cliffs          | [ACNet](https://drugai.github.io/ACNet/)                                                | 400,000 pairs; 190 targets                              |              |                   |
+| MPCD                      | Activity Benchmark       | [MPCD](https://github.com/bidd-group/MPCD)                                              | 39 datasets                                             |              |                   |
+| LIT-PCBA                  | Virtual Screening        | [LIT-PCBA](https://drugdesign.unistra.fr/LIT-PCBA/)                                     | 15 targets; 7,761 actives                               |              |                   |
+| EPA CompTox Dashboard     | Toxicology; Exposure     | [EPA CompTox Dashboard](https://comptox.epa.gov/dashboard/)                             | 1,376,722 chemicals                                     |              |                   |
+| EPA ToxCast               | In-vitro Toxicology      | [EPA ToxCast](https://www.epa.gov/comptox-tools/exploring-toxcast-data)                 | \~10,000 substances                                     |              |                   |
+| Tox21                     | HTS Toxicology           | [Tox21](https://tox21.gov/data-and-tools/)                                              | Not specified                                           |              |                   |
+| SIDER                     | Side Effects             | [SIDER](http://sideeffects.embl.de/download/)                                           | Not specified                                           |              |                   |
+| Open Targets              | Target Evidence          | [Open Targets](https://platform.opentargets.org/)                                       | Not specified                                           |              |                   |
+
+### **REACTIONS AND SYNTHESIS**
+| Source                          | Sub Category               | URL                                                                                                               | Data entries (number)   | Verification | Example ML script |
+| ------------------------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------- | ------------ | ----------------- |
+| USPTO Reactions (Lowe)          | Reaction SMILES            | [USPTO Reactions](https://figshare.com/articles/dataset/Chemical_reactions_from_US_patents_1976-Sep2016_/5104873) | Not specified           |              |                   |
+| Open Reaction Database          | Reactions; Conditions      | [Open Reaction Database](https://open-reaction-database.org/browse)                                               | Not specified           |              |                   |
+| Dreher-Doyle                    | Buchwald-Hartwig Reactions | [Dreher-Doyle](https://github.com/leojklarner/gauche/blob/main/gauche/datasets/reactions/DreherDoyle.csv)         | 3,955 reactions         |              |                   |
+| Perera Suzuki                   | Suzuki-Miyaura Reactions   | [Perera Suzuki](https://github.com/leojklarner/gauche/blob/main/gauche/datasets/reactions/SuzukiMiyaura.csv)      | 5,760 reactions         |              |                   |
+| RDB7                            | Reaction Barriers          | [RDB7](https://zenodo.org/record/6618262)                                                                         | Not specified           |              |                   |
+| Chemical Reaction Database km.t | Organic Reactions          | [Chemical Reaction Database km.t](https://kmt.vander-lingen.nl/)                                                  | >1.44 million reactions |              |                   |
+| Pistachio                       | Patent Reactions           | [Pistachio](https://www.nextmovesoftware.com/pistachio.html)                                                      | Not specified           |              |                   |
+
+### **POLYMERS AND MATERIALS**
+| Source                     | Sub Category           | URL                                                                               | Data entries (number)                                | Verification | Example ML script |
+| -------------------------- | ---------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------ | ----------------- |
+| PoLyInfo                   | Polymer Properties     | [PoLyInfo](https://polymer.nims.go.jp/en/)                                        | 552,427 property records; 19,227 homopolymers (2025) |              |                   |
+| Khazana                    | Polymer Simulations    | [Khazana](https://khazana.gatech.edu/dataset/)                                    | Not specified                                        |              |                   |
+| PI1M                       | Virtual Polymers       | [PI1M](https://github.com/RUIMINMA1996/PI1M)                                      | \~1 million structures                               |              |                   |
+| Polymer Genome             | Prediction Platform    | [Polymer Genome](https://polymergenome.org/)                                      | Not specified                                        |              |                   |
+| NanoMine                   | Polymer Nanocomposites | [NanoMine](https://materialsmine.org/)                                            | Not specified                                        |              |                   |
+| CAMPUS Plastics            | Plastic Grades         | [CAMPUS Plastics](https://www.campusplastics.com/)                                | Not specified                                        |              |                   |
+| MatWeb                     | Material Datasheets    | [MatWeb](https://www.matweb.com/)                                                 | Not specified                                        |              |                   |
+| UL Prospector              | Polymer Grades         | [UL Prospector](https://www.ulprospector.com/)                                    | Not specified                                        |              |                   |
+| Open Macromolecular Genome | Virtual Polymers       | [Open Macromolecular Genome](https://github.com/ShiqianTan/AwesomePolymerDataset) | Catalogue link                                       |              |                   |
+| CoPolDB                    | Copolymerization       | [CoPolDB](https://github.com/ShiqianTan/AwesomePolymerDataset)                    | Catalogue link                                       |              |                   |
+| PolySol                    | Polymer Solubility     | [PolySol](https://github.com/ShiqianTan/AwesomePolymerDataset)                    | Catalogue link                                       |              |                   |
+| PolyIE                     | Polymer Text Mining    | [PolyIE](https://github.com/ShiqianTan/AwesomePolymerDataset)                     | Catalogue link                                       |              |                   |
+| Materials Project          | Inorganic Materials    | [Materials Project](https://materialsproject.org/)                                | Not specified                                        |              |                   |
+| NOMAD                      | Materials Simulations  | [NOMAD](https://nomad-lab.eu/nomad-lab/)                                          | 19,425,275 uploads (site statistic)                  |              |                   |
+| Materials Cloud            | Materials; DFT         | [Materials Cloud](https://www.materialscloud.org/)                                | Not specified                                        |              |                   |
+| OQMD                       | Inorganic Materials    | [OQMD](https://oqmd.org/)                                                         | Not specified                                        |              |                   |
+| AFLOW                      | Inorganic Materials    | [AFLOW](https://aflow.org/)                                                       | Not specified                                        |              |                   |
+| JARVIS-DFT                 | Materials; DFT         | [JARVIS-DFT](https://jarvis.nist.gov/)                                            | Not specified                                        |              |                   |
+| Matbench                   | Materials Benchmarks   | [Matbench](https://matbench.materialsproject.org/)                                | Not specified                                        |              |                   |
+| DigHyd                     | Hydrogen Storage       | [DigHyd](https://www.dighyd.org/)                                                 | >30,000 entries                                      |              |                   |
+
+### **ENVIRONMENTAL AND FOOD CONTACT**
+| Source                       | Sub Category                     | URL                                                                     | Data entries (number)               | Verification | Example ML script |
+| ---------------------------- | -------------------------------- | ----------------------------------------------------------------------- | ----------------------------------- | ------------ | ----------------- |
+| FCCmigex                     | FCM; Migration; NIAS             | [FCCmigex](https://foodpackagingforum.org/resources/databases/fccmigex) | >35,500 entries; \~5,300 substances |              |                   |
+| NORMAN S112 FCCMIGEX         | FCM; Suspect List                | [NORMAN S112 FCCMIGEX](https://zenodo.org/records/15852269)             | Not specified                       |              |                   |
+| NORMAN Suspect List Exchange | Environmental; Suspect Screening | [NORMAN Suspect List Exchange](https://www.norman-network.com/nds/SLE/) | Not specified                       |              |                   |
+| CompTox DSSTox               | Environmental; Structures        | [CompTox DSSTox](https://comptox.epa.gov/dashboard/)                    | Not specified                       |              |                   |
+| LitChemPlast                 | Plastics; Chemical Substances    | [LitChemPlast](https://github.com/ShiqianTan/AwesomePolymerDataset)     | Catalogue link                      |              |                   |
+| EPA ECOTOX                   | Ecotoxicity                      | [EPA ECOTOX](https://cfpub.epa.gov/ecotox/)                             | Not specified                       |              |                   |
+| ECHA CHEM                    | Regulation; Properties           | [ECHA CHEM](https://chem.echa.europa.eu/)                               | Not specified                       |              |                   |
+
+
+### **TEXT AND KNOWLEDGE EXTRACTRION**
+| Source               | Sub Category        | URL                                                                                    | Data entries (number)  | Verification | Example ML script |
+| -------------------- | ------------------- | -------------------------------------------------------------------------------------- | ---------------------- | ------------ | ----------------- |
+| ChemTables           | Chemical Tables     | [ChemTables](https://doi.org/10.17632/g7tjh7tbrj.3)                                    | 788 tables             |              |                   |
+| BC5CDR               | Chemical NER        | [BC5CDR](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/) | 1,500 articles         |              |                   |
+| PubChemSTM           | Molecule–Text Pairs | [PubChemSTM](https://arxiv.org/abs/2212.10789)                                         | 281,000 pairs          |              |                   |
+| PubTator 3           | Biomedical NER      | [PubTator 3](https://www.ncbi.nlm.nih.gov/research/pubtator3/)                         | Not specified          |              |                   |
+| Europe PMC Open Text | Scientific Text     | [Europe PMC Open Text](https://europepmc.org/downloads)                                | >5 million articles    |              |                   |
+| NLMChem              | Chemical NER        | [NLMChem](https://ftp.ncbi.nlm.nih.gov/pub/lu/NLMChem/)                                | 150 full-text articles |              |                   |
+| ChEBI-20             | Molecule Captioning | [ChEBI-20](https://paperswithcode.com/dataset/chebi-20)                                | 33,010 pairs           |              |                   |
+
+
 
 ## Suggest a dataset
 
