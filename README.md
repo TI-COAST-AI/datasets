@@ -8,7 +8,8 @@ licence, data structure, potential applications, and known limitations.
 
 ## Available datasets
 
-### Mass Spectrometry 
+### **MASS SPECTROMETRY** 
+
 | Source                          | Sub Category                 | URL                                                                                     | Data entries (number)             | Verification | Example ML script |
 | ------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------- | --------------------------------- | ------------ | ----------------- |
 | MassBank                        | LC-MS/MS; Reference Spectra  | [MassBank](https://massbank.eu/MassBank/)                                               | Not specified                     |              |                   |
