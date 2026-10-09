@@ -33,6 +33,24 @@ licence, data structure, potential applications, and known limitations.
 | NIST Polymer Pyrolysis          | Py-GC-MS                     | [NIST Polymer Pyrolysis](https://chemdata.nist.gov/dokuwiki/doku.php?id=chemdata:start) | Not specified                     |              |                   |
 | NIST Peptide Libraries          | Proteomics MS/MS             | [NIST Peptide Libraries](https://chemdata.nist.gov/dokuwiki/doku.php?id=chemdata:start) | \~3.8 million spectra             |              |                   |
 
+### **SPECTROMETRY**
+| Source                     | Sub Category               | URL                                                                                          | Data entries (number)                       | Verification | Example ML script |
+| -------------------------- | -------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------- | ------------ | ----------------- |
+| nmrshiftdb2                | ¹H-NMR; ¹³C-NMR            | [nmrshiftdb2](https://nmrshiftdb.nmr.uni-koeln.de/)                                          | 70,030 measured spectra; 271,817 structures |              |                   |
+| NP-MRD                     | Natural Product NMR        | [NP-MRD](https://np-mrd.org/downloads)                                                       | Not specified                               |              |                   |
+| BMRB                       | Biomolecular NMR           | [BMRB](https://bmrb.io/)                                                                     | Not specified                               |              |                   |
+| SDBS                       | NMR; IR; Raman; MS         | [SDBS](https://sdbs.db.aist.go.jp/)                                                          | Not specified                               |              |                   |
+| NIST WebBook IR            | IR                         | [NIST WebBook IR](https://webbook.nist.gov/chemistry/)                                       | >16,000 compounds with IR spectra           |              |                   |
+| NIST WebBook UV-Vis        | UV-Vis                     | [NIST WebBook UV-Vis](https://webbook.nist.gov/chemistry/)                                   | >1,600 compounds with UV-Vis spectra        |              |                   |
+| SpectraBase                | NMR; IR; Raman; UV-Vis; MS | [SpectraBase](https://spectrabase.com/)                                                      | Not specified                               |              |                   |
+| RRUFF                      | Raman; IR; XRD             | [RRUFF](https://rruff.info/)                                                                 | Not specified                               |              |                   |
+| USGS Spectral Library      | Reflectance; VIS-NIR-SWIR  | [USGS Spectral Library](https://www.usgs.gov/labs/spectroscopy-lab/science/spectral-library) | Not specified                               |              |                   |
+| ECOSTRESS Spectral Library | VIS-NIR-TIR                | [ECOSTRESS](https://speclib.jpl.nasa.gov/)                                                   | >3,400 spectra                              |              |                   |
+| OpenSpecy Library          | FTIR; Raman                | [OpenSpecy](https://openanalysis.org/openspecy/)                                             | Not specified                               |              |                   |
+| RamanBase                  | Raman                      | [RamanBase](https://next.ramanbase.org/spectra)                                              | Not specified                               |              |                   |
+| PoLyInfo Polymer NMR       | ¹H-NMR; ¹³C-NMR            | [PoLyInfo Polymer NMR](https://polymer.nims.go.jp/en/)                                       | 154 samples                                 |              |                   |
+| FTIR-Plastics              | FTIR; Plastics             | [FTIR-Plastics](https://github.com/ShiqianTan/AwesomePolymerDataset)                         | Catalogue link; dataset to verify           |              |                   |
+| KnowItAll Bio-Rad          | IR; Raman; NMR             | [KnowItAll Bio-Rad](https://www.bio-rad.com/en-us/category/spectroscopy-software)            | Commercial                                  |              |                   |
 
 
 ## Suggest a dataset
